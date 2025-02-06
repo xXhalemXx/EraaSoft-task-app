@@ -1,0 +1,71 @@
+name: task_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds flutter bloc and equatable dependencies to mange the state of the app
+  flutter_bloc: ^9.0.0
+  bloc: ^9.0.0
+  equatable: ^2.0.7
+  # The following adds the get_it dependencies to manage the dependency injection 
+  get_it: ^8.0.3
+  # The following adds the dio and pretty_dio_logger dependencies to make the http requests
+  dio: ^5.8.0
+  pretty_dio_logger: ^1.4.0
+  # The following adds the flutter_screenutil dependencies to make the app responsive
+  flutter_screenutil: ^5.9.3
+  # The following adds the flutter_svg dependencies to render svg images
+  flutter_svg: ^2.0.17
+  # The following adds the flutter_native_splash dependencies to generate the splash screen
+  flutter_native_splash: ^2.4.4
+  # The following adds the dropdown_button2 dependencies to create custom styled dropdown buttons
+  dropdown_button2: ^2.3.9
+  # The following adds the intl and calendar_date_picker2 dependencies to manage the date format
+  intl: ^0.20.2
+  calendar_date_picker2: ^1.1.8
+  # to store data locally
+  shared_preferences: ^2.5.1
+  # to store sensitive data locally
+  flutter_secure_storage: ^9.2.4
+  # to mange loading in pro way
+  shimmer: ^3.0.0
+  # to store user tasks in local database using hive database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  # to handle connectivity
+  connectivity_plus: ^6.1.2
+
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  # The following adds the hive_generator dependencies to generate the hive adapters
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/gif/
+
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/sf_pro_regular.otf
+
+
+flutter_assets:
+  assets_path: assets/
+  output_path: lib/src/core/constants/
+  filename: assets.dart
+  # classname: Resources
