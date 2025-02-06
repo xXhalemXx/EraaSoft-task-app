@@ -5,7 +5,7 @@ The EraaSoft Task Manager App is a powerful and intuitive task management tool d
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Installation](#installation)
-- [Tray App Now](#try)
+- [Tray App Now](#Run)
 - [Credits](#credits)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -207,7 +207,7 @@ flutter build apk
 
 ```
 
-## run app now
+## Run app now
 You can use live demo on this link [play app](https://appetize.io/app/b_4xz6jnxi57obodysqcepn6jaqa).
 
 ## Contributing
