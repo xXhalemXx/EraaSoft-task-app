@@ -5,7 +5,7 @@ The EraaSoft Task Manager App is a powerful and intuitive task management tool d
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Installation](#installation)
-- [Tray App Now](#Run)
+- [Run App Now](#run-app-now)
 - [Credits](#credits)
 - [Contributing](#contributing)
 - [Contact](#contact)
